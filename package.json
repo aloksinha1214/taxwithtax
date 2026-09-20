@@ -1,0 +1,19 @@
+{
+  "name": "tally-with-tax-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for the Tally With Tax paid online course platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^13.0.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "razorpay": "^2.9.4"
+  }
+}
